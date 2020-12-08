@@ -1189,7 +1189,7 @@ audio {
 .gc_event_date_wrapper{
 	position:absolute;
 	width:110px;
-	height:70px;
+	height:85px;
 	background:#00468c;
 	top: 0;
     margin-top: 37px;
@@ -1231,7 +1231,7 @@ audio {
 	font-size:30px;
 	color:#ffffff;
 	padding-left:20px;
-	padding-top:16px;
+	padding-top:2px;
 	font-family: 'Lato', sans-serif;
 	float:left;
 }
@@ -1240,8 +1240,8 @@ audio {
 	color:#ffffff;
 	line-height:15px;
 	float: left;
-    padding-top: 16px;
-    padding-left: 8px;
+    padding-top: 6px;
+    padding-left: 18px;
 }
 .gc_player_left_section_wrapper, .gc_player_right_section_wrapper{
 	float:left;
@@ -3559,7 +3559,7 @@ audio {
 	padding-left: 20px;
 }
 .gc_ceremony_img_wrapper{
-	background:url('../images/content/ceremony_img.jpg') 50% 0 repeat-y;
+	background:url('../images/ceremony_img.jpg') 50% 0 repeat-y;
 	background-position:center 0;
 	background-size:cover;
 	width:100%;
@@ -7658,3 +7658,18 @@ font-family: 'Droid Serif', serif;
 	}
 }
 /*-- Responsive css End --*/
+
+.infocookie {
+    height: 150px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    background-color: #e5ae49;
+    opacity: 0.8;
+    z-index: 999999;
+    padding: 10px 10px 0 15px;
+    color: white;
+    text-align: center;
+    padding: auto;
+    font-size: 1rem;
+}

@@ -45,6 +45,9 @@ Purchase:
 <!-- Top Scroll Start -->
 <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
 <!-- Top Scroll End -->
+
+@include('cookieConsent::index')
+
 <!-- Header Wrapper Start -->
 <div section-scroll='0' class="gc_scroll_wrap">
     <div class="gc_main_menu_wrapper">
